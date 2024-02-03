@@ -2,5 +2,14 @@
   "devDependencies": {
     "@prettier/plugin-php": "^0.22.1",
     "prettier": "^3.2.4"
-  }
+  },
+  "name": "school-website",
+  "version": "1.0.0",
+  "description": "a website for girls school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
