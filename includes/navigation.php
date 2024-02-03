@@ -1,63 +1,71 @@
-<div class="MobileNav" data-mobile-nav>
-    <div class="MobileNav-overlay" data-mobile-nav-overlay></div>
-    <div class="MobileNav-inner">
-        <div class="MobileNav-trigger" data-mobile-nav-trigger>
-            <div class="MobileNav-trigger-inner"></div>
-        </div>
-        <ul class="MobileNav-nav" data-mobile-nav-list>
-            <li class="MobileNav-item" data-mobile-nav-item="1">
-                <div class="MobileNav-item-title">
-                    <a href="#">About</a>
-                </div>
-            </li>
-            <li class="MobileNav-item" data-mobile-nav-item="2">
-                <div class="MobileNav-item-title">
-                    <a href="#">Products</a>
-                </div>
-            </li>
-            <li class="MobileNav-item" data-mobile-nav-item="3">
-                <div class="MobileNav-item-title">
-                    <a href="#">Services</a>
-                </div>
-            </li>
-            <li class="MobileNav-item" data-mobile-nav-item="4">
-                <div class="MobileNav-item-title">
-                    <a href="#">Work</a>
-                </div>
-            </li>
-            <li class="MobileNav-item" data-mobile-nav-item="5">
-                <div class="MobileNav-item-title">
-                    <a href="#">Contact</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
+<header>
+    <div class="containe-fluide">
+        <div class="container">
 
-<header class="Header" data-header>
-    <div class="Header-inner" data-header-nav>
-        <div class="logo">
-            <img src="https://i.imgur.com/F0k8l7N.png" alt="">
+            <!-- As a link -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid d-flex flex-lg-column">
+                    <a class="navbar-brand" href="#">
+                        <img src="./includes/images/pmsggmsss-logo.jpg" alt="" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">From Desk Of Principal</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbarDropdown" href="#" id="navbarDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Academics
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-1" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbarDropdown" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    General Info
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-2" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbarDropdown" href="#" id="navbarDropdown-3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Infrastructure
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-3" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mandatory Public Disclosure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
         </div>
-        <nav class="Header-nav" data-nav>
-            <div class="Header-nav-item" data-nav-item="1">
-                <a href="#">About</a>
-            </div>
-            <div class="Header-nav-item" data-nav-item="2">
-                <a href="#">Products</a>
-            </div>
-            <div class="Header-nav-item" data-nav-item="3">
-                <a href="#">Services</a>
-            </div>
-            <div class="Header-nav-item" data-nav-item="4">
-                <a href="#">Work</a>
-            </div>
-            <div class="Header-nav-item" data-nav-item="5">
-                <a href="#">Contact</a>
-            </div>
-        </nav>
-        <button class="MobileNav-trigger" data-mobile-nav-trigger>
-            <div class="MobileNav-trigger-inner"></div>
-        </button>
     </div>
 </header>
