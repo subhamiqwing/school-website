@@ -19,3 +19,4 @@
 </head>
 
 <body>
+    <?php require_once "./includes/navigation.php" ?>
