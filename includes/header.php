@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <!-- Brainstrap -->
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/footers/footer-5/assets/css/footer-5.css">
+    <!-- Gallery -->
+    <link type="text/css" rel="stylesheet" href="lightgallery/css/lightgallery-bundle.css" />
 </head>
 
 <body>

@@ -139,6 +139,12 @@
 <!-- Counter -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<!-- Gallery -->
+<script src="js/lightgallery.min.js"></script>
+
+<!-- lightgallery plugins -->
+<script src="js/plugins/lg-thumbnail.umd.js"></script>
+<script src="js/plugins/lg-zoom.umd.js"></script>
 <!-- Script -->
 <script src="./includes/script.js"></script>
 </body>

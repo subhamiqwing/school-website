@@ -7,6 +7,50 @@ let slider = tns({
   mouseDrag: true,
   autoplayButtonOutput: false,
   nav: false,
+  
+});
+
+let slider2 = tns({
+  container: "#image-slider",
+  items: 1,
+  autoplay: true,
+  speed: 500,
+  mouseDrag: true,
+  autoplayButtonOutput: false,
+  nav: false,
+  controls: false,
+  gutter: 15,
+  responsive: {
+    992: {
+      items: 4,
+    },
+    768: {
+      items: 3,
+    },
+    576: {
+      items: 2,
+    }
+  }
+});
+
+let slider3 = tns({
+  container: "#video-slider",
+  items:1,
+  autoplay: true,
+  speed: 500,
+  mouseDrag: true,
+  autoplayButtonOutput: false,
+  nav: false,
+  controls: false,
+  gutter: 15,
+  responsive: {
+    768: {
+      items: 3,
+    },
+    576: {
+      items: 2,
+    }
+  }
 });
 
 // counter
@@ -155,3 +199,6 @@ document.querySelectorAll(".button").forEach((button) => {
     }
   });
 });
+
+// Gallery
+

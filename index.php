@@ -47,8 +47,8 @@
     <div class="container-fluid">
         <div class="container">
             <!-- Section Heading -->
-            <div class="section-heading py-5">
-                <h2 class="fw-boldest display-3 text-center ">From Principal's Desk</h2>
+            <div class="section-heading py-5 position-relative">
+                <h2 class="fw-boldest display-3 text-center heading-text">From Principal's Desk</h2>
             </div>
             <!-- Section COntent -->
             <section class="section section--border w-100 h-100">
@@ -78,12 +78,71 @@
     </div>
 </section>
 
-<!-- Counter -->
-<section class="container-fluid">
+<!-- Our Vision And Mission -->
+<section class="container-fluid pb-5 mb-5">
     <div class="container">
         <!-- Section Heading -->
-        <div class="section-heading py-5">
-            <h2 class="fw-boldest display-3 text-center ">Our Stats</h2>
+        <div class="section-heading py-5 position-relative mb-5">
+            <h2 class="fw-boldest display-3 text-center heading-text">Our Vision & Mission</h2>
+        </div>
+        <!-- Section Content -->
+        <div class="row">
+            <div class="col-md-6 center justify-content-end">
+
+                <div class="card-container center">
+                    <div class="card mb-5 mb-lg-0">
+                        <h3 class="text-white fw-bolder">Our Vision</h3><br>
+                        <p class="text-white">
+                            Welcome to Government Girls Model Senior Secondary School,, where we envision a dynamic learning environment that sparks curiosity, fosters creativity, and instills a passion for lifelong learning. Our commitment goes beyond academic excellence to nurture the holistic development of each student, fostering both intellect and character. Join us in celebrating diversity, embracing inclusivity, and creating a foundation for success.
+                        </p>
+                        <div class="layers">
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 center justify-content-end">
+                <div class="card-container center ">
+                    <div class="card">
+                        <h3 class="text-white fw-bolder">Our Mission</h3><br>
+                        <p class="text-white">At Government Girls Model Senior Secondary School, our mission is to empower students with the knowledge, skills, and values needed to thrive in an ever-changing world. We strive to create a nurturing and innovative learning environment that fosters intellectual curiosity, critical thinking, and a passion for lifelong learning. Through a commitment to excellence in education, we aim to inspire our students to become confident, compassionate, and responsible global citizens.</p>
+                        <div class="layers">
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                            <div class="layer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Counter -->
+<section class="container-fluid mt-5 pt-5">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading py-5 position-relative ">
+            <h2 class="fw-boldest display-3 text-center heading-text">Our Stats</h2>
         </div>
 
         <div class="container">
@@ -138,8 +197,8 @@
     <div class="container-fluid">
         <div class="container">
             <!-- Section Heading -->
-            <div class="section-heading py-5">
-                <h2 class="fw-boldest display-3 text-center ">Quick Navigation</h2>
+            <div class="section-heading py-5 position-relative">
+                <h2 class="fw-boldest display-3 text-center heading-text">Quick Navigation</h2>
             </div>
             <!-- Section Content -->
             <!-- Vertical tabs -->
@@ -151,15 +210,6 @@
 
                             <button class="nav-link text-start v-pills" id="v-pills-events-tab" data-bs-toggle="pill" data-bs-target="#v-pills-events" type="button" role="tab" aria-controls="v-pills v-pills-events" aria-selected="false">Upcoming Events</button>
 
-                            <!-- <button class="nav-link text-start v-pills" id="v-pills-achievements-tab" data-bs-toggle="pill" data-bs-target="#v-pills-achievements" type="button" role="tab" aria-controls="v-pills v-pills-achievements" aria-selected="false">Achievements</button>
-
-                            <button class="nav-link text-start v-pills" id="v-pills-downloads-tab" data-bs-toggle="pill" data-bs-target="#v-pills-downloads" type="button" role="tab" aria-controls="v-pills v-pills-downloads" aria-selected="false">Downloads</button>
-
-                            <button class="nav-link text-start v-pills" id="v-pills-activities-tab" data-bs-toggle="pill" data-bs-target="#v-pills-activities" type="button" role="tab" aria-controls="v-pills v-pills-activities" aria-selected="false">Activities</button>
-
-                            <button class="nav-link text-start v-pills" id="v-pills-news-tab" data-bs-toggle="pill" data-bs-target="#v-pills-news" type="button" role="tab" aria-controls="v-pills v-pills-news" aria-selected="false">Sports/Cultural News</button>
-
-                            <button class="nav-link text-start v-pills" id="v-pills-other-tab" data-bs-toggle="pill" data-bs-target="#v-pills-other" type="button" role="tab" aria-controls="v-pills v-pills-other" aria-selected="false">Other Activities</button> -->
                         </div>
                         <div class="tab-content w-100" id="v-pills-tabContent">
                             <div class="tab-pane position-relative fade show active" id="v-pills-imp" role="tabpanel" aria-labelledby="v-pills-imp-tab" tabindex="0" style="z-index: -10;">
@@ -180,69 +230,7 @@
                                     <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Lecture Series -Wisdom Unplugged Top Expert, Endless Inspiration</a></li>
                                 </ul>
                             </div>
-                            <!-- <div class="tab-pane fade" id="v-pills-achievements" role="tabpanel" aria-labelledby="v-pills-achievements-tab" tabindex="0">
-                                <ul class="list-group list-group-flush w-100">
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">JOINING LETTER : NATIONAL DEFENCE ACADEMY, KHADAKWASLA</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">NATIONAL TECHNO CULTURAL FEST PARIVARTAN- 2023</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">SANSAD BHARAT DARSHAN</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Mr Karan Thakur Student of Our College has been awarded by Rajya Puraskay for his commendable job in Scouts and Guide.</a></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-downloads" role="tabpanel" aria-labelledby="v-pills-downloads-tab" tabindex="0">
-                                <ul class="list-group list-group-flush w-100">
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">OSCA Committee</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Staff List</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Leave form</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Prospectus Information</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Naac Report</a></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-activities" role="tabpanel" aria-labelledby="v-pills-activities-tab" tabindex="0">
-                                <ul class="list-group list-group-flush w-100">
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">NSS Report day wise 1st day 2nd day 3rd day 4th day 5th day</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">One Day Workshop on Quality Accreditation with NAAC and Institutional Preparedness</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Communal Harmony Campaign Week & Flag Day</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Final Schedule Program of National Seminar on Life and Contributions of Dr. BR Ambedkar</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Principal Conference at DHE Shimla Under Secretary Higher education Shimla</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on Principals' Conference</a></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
-                                <ul class="list-group list-group-flush w-100">
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Inter College Chess Championship</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on District Youth Festival</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">HPU Inter-College Badminton-Women Tournament Report</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on HP-University Youth Festival Group I Championship</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on HP-University Youth Festival Group II</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on HP-University Youth Festival Group IV</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on Inter College Basketball Tournament</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on Shooting Championship</a></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-news" role="tabpanel" aria-labelledby="v-pills-activities-tab" tabindex="0">
-                                <ul class="list-group list-group-flush w-100">
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Lecture Series on Indian Literary Theory</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on District Youth Festival</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">College Report</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on ROAD SAFETY AWARENESS LECTURE</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">AWARENESS CAMPAIGN FOR RECRUITMENT IN RBI</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">VERMICOMPOST Report</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">FAMILIARIZATION EXERCISE REPORT</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Blood Donation Camp Report</a></li>
-                                </ul>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-activities-tab" tabindex="0">
-                                <ul class="list-group list-group-flush w-100">
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Lecture Series on Indian Literary Theory</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on District Youth Festival</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">College Report</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Report on ROAD SAFETY AWARENESS LECTURE</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">AWARENESS CAMPAIGN FOR RECRUITMENT IN RBI</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">VERMICOMPOST Report</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">FAMILIARIZATION EXERCISE REPORT</a></li>
-                                    <li class="list-group-item w-100"><a href="#" class="v-tab-links fs-4">Blood Donation Camp Report</a></li>
-                                </ul>
-                            </div> -->
+
                         </div>
                     </div>
                 </div>
@@ -252,5 +240,101 @@
         </div>
     </div>
 </section>
+
+<!-- Messages -->
+<section class="container-fluid py-5">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading py-5 position-relative ">
+            <h2 class="fw-boldest display-3 text-center text-black heading-text">Messages</h2>
+        </div>
+        <!-- Section Content -->
+        <div class="row my-5">
+            <div class="col-md-6 center head-boy">
+                <div class="testimonial">
+                    <span class="open quote">“</span>
+                    <div class="image">
+                        <div class="clip"></div>
+                        <img src="https://placehold.co/100">
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos et omnis facilis dolor ratione modi harum? Nam, deserunt quas. Labore ducimus sit sunt alias tempora doloremque officiis, impedit recusandae?
+                        Dolorum odio qui amet soluta labore officiis, dignissimos nemo itaque consequatur aliquam magnam suscipit quas dicta deleniti exercitationem obcaecati molestias minus ea tempora asperiores. Porro, ea! Laboriosam omnis voluptatem quia!</p>
+                    <div class="source pt-5">
+                        <span>Head Boy</span>
+                    </div>
+                    <span class="close quote">”</span>
+                </div>
+            </div>
+            <div class="col-md-6 center">
+                <div class="testimonial">
+                    <span class="open quote">“</span>
+                    <div class="image">
+                        <div class="clip"></div>
+                        <img src="https://placehold.co/100">
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dignissimos et omnis facilis dolor ratione modi harum? Nam, deserunt quas. Labore ducimus sit sunt alias tempora doloremque officiis, impedit recusandae?
+                        Dolorum odio qui amet soluta labore officiis, dignissimos nemo itaque consequatur aliquam magnam suscipit quas dicta deleniti exercitationem obcaecati molestias minus ea tempora asperiores. Porro, ea! Laboriosam omnis voluptatem quia!</p>
+                    <div class="source">
+                        <span>Head Girl</span>
+                    </div>
+                    <span class="close quote">”</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Video Gallery -->
+<section class="container-fluid py-5">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading py-5 position-relative ">
+            <h2 class="fw-boldest display-3 text-center text-black heading-text">Video Gallery</h2>
+        </div>
+        <!-- Section Content -->
+        <div id="video-slider">
+            <div class="videos video-1">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eEzD-Y97ges?si=a_-IgKPMzdpGWzW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="videos video-2">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eEzD-Y97ges?si=a_-IgKPMzdpGWzW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="videos video-3">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eEzD-Y97ges?si=a_-IgKPMzdpGWzW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="videos video-4">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eEzD-Y97ges?si=a_-IgKPMzdpGWzW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="videos video-5">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eEzD-Y97ges?si=a_-IgKPMzdpGWzW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="videos video-6">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/eEzD-Y97ges?si=a_-IgKPMzdpGWzW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Image Gallery -->
+<section class="container-fluid py-5">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading py-5 position-relative ">
+            <h2 class="fw-boldest display-3 text-center text-black heading-text">Image Gallery</h2>
+        </div>
+        <!-- Section Content -->
+        <div id="image-slider">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+            <img src="./includes/images/placeholder-image.webp" alt="" class="img-fluid w-100-h-100">
+        </div>
+    </div>
+</section>
+
 
 <?php require_once  "./includes/footer.php" ?>
